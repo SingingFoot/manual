@@ -110,12 +110,26 @@ rm -rf <folder_name>
 git log
 ```
 
+To get all the commits story in one line:
+
+```
+git log --oneline
+```
+
 To exit from the **Story of commits** mode press "q". 
 
 To get all the commits of a specific file:
 
 ```
 git log --<file_name>
+```
+
+### Find difference between commits
+
+Find difference between an arbitrary and the last commit:
+
+```
+git diff <arbitrary_commit_number> HEAD
 ```
 
 
