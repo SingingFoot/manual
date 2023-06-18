@@ -132,6 +132,48 @@ Find difference between an arbitrary and the last commit:
 git diff <arbitrary_commit_number> HEAD
 ```
 
+### Work with branches
+
+Check your existing branches first
+
+```
+git branch -a
+```
+
+Create a new branch
+
+```
+git branch my_new_branch
+```
+
+Switch to a new branch
+
+```
+git checkout my_new_branch
+```
+
+Create a new branch and switch to it simultaneously
+
+```
+git checkout -b <new_branch_name>
+```
+
+Rename your branch
+
+```
+git branch -m <old_name_branch> <new_name_branch>
+```
+
+Delete your branch
+
+```
+git branch -d <name_of_your_branch>
+```
+
+
+
+
+
 
 
 
