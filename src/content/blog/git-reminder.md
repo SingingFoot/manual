@@ -158,17 +158,18 @@ Create a new branch and switch to it simultaneously
 git checkout -b <new_branch_name>
 ```
 
-Rename your branch
+Rename your branch:
 
 ```
 git branch -m <old_name_branch> <new_name_branch>
 ```
 
-Delete your branch
+Delete your branch:
 
 ```
 git branch -d <name_of_your_branch>
 ```
+Addition
 
 
 
