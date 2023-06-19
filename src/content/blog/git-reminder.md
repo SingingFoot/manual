@@ -169,7 +169,13 @@ Delete your branch:
 ```
 git branch -d <name_of_your_branch>
 ```
-Addition
+
+Merge your side branch into main branch. You must be on your main branch for that.
+
+```
+git merge <name_of_your_branch>
+```
+
 
 
 
