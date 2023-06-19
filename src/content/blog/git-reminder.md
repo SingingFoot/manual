@@ -176,6 +176,8 @@ Merge your side branch into main branch. You must be on your main branch for tha
 git merge <name_of_your_branch>
 ```
 
+Add copyright notice
+
 
 
 
