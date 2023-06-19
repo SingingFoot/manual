@@ -176,7 +176,11 @@ Merge your side branch into main branch. You must be on your main branch for tha
 git merge <name_of_your_branch>
 ```
 
-Add copyright notice
+Merge your branch with "no fast-forward" flag to clearly see the branch in log
+
+```
+git merge --no-ff
+```
 
 
 
