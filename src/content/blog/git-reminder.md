@@ -4,7 +4,7 @@ description: A chain of terminal commands to use Git.
 published: 2023-06-18
 ---
 
-### Initialize a repository
+### Initialize a repository 111
 
 To initialize an existing repository enter the following command inside the repository.
 
