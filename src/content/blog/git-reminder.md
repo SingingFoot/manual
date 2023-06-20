@@ -182,7 +182,7 @@ Merge your branch with "no fast-forward" flag to clearly see the branch in log
 git merge --no-ff
 ```
 
-Change 1 New_branch
+Change 1 New_branch 1 New_branch
 
 
 
