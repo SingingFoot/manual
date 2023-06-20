@@ -181,8 +181,7 @@ Merge your branch with "no fast-forward" flag to clearly see the branch in log
 ```
 git merge --no-ff
 ```
-
-Change 2 Main
+Change 2 Main 2 Main
 
 
 
