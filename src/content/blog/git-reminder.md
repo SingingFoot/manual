@@ -189,7 +189,15 @@ Rebase your branch
 ```
 git rebase <branch_name>
 ```
-### Pull Rebase process
+
+If you have changes made in both local and global branches simultaneosly, then use such commands
+
+```
+git fetch
+
+git pull --rebase
+```
+
 
 
 
