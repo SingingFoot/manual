@@ -191,8 +191,12 @@ git rebase
 ```
 Adding changes before rebasing conflict
 
+<<<<<<< HEAD
+Some conflicting changes again
+=======
 These are troubles.
 
+>>>>>>> f652cf8 (fb before rebase conflict)
 
 
 
