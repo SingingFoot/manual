@@ -189,7 +189,7 @@ Rebase your branch
 ```
 git rebase
 ```
-
+Adding changes before rebasing conflict
 
 
 
