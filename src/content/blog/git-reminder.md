@@ -184,6 +184,13 @@ git merge --no-ff
 
 ### Rebase process
 
+Rebase your branch
+
+```
+git rebase
+```
+
+
 
 
 
