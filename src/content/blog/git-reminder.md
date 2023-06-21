@@ -191,7 +191,7 @@ git rebase
 ```
 Adding changes before rebasing conflict
 
-
+Some conflicting changes again
 
 
 
