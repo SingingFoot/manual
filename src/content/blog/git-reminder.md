@@ -182,6 +182,11 @@ Merge your branch with "no fast-forward" flag to clearly see the branch in log
 git merge --no-ff
 ```
 
+Rebase your branch
+
+```
+git rebase
+```
 
 
 
