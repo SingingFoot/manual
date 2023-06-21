@@ -187,11 +187,8 @@ git merge --no-ff
 Rebase your branch
 
 ```
-git rebase
+git rebase <branch_name>
 ```
-Adding changes before rebasing conflict
-
-These are troubles.
 
 
 
