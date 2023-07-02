@@ -223,7 +223,8 @@ The result of **git reflog** command looks like this.
 
 ![The result of **git reflog** command](/blogpics/gitflog.png)
 
-
+Added some text 1
+Added some text 2
 
 
 
