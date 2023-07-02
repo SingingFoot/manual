@@ -45,7 +45,12 @@ To unstage a file:
 ```
 git reset HEAD <file_name>
 ```
-or
+To unstage only one previous change:
+
+```
+get reset HEAD^1
+```
+or to unstage a file:
 ```
 git restore --staged <file-name>
 ```
