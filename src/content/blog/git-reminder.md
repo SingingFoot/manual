@@ -227,5 +227,3 @@ The result of **git reflog** command looks like this.
 
 
 
-
-
