@@ -209,6 +209,22 @@ git fetch
 git pull --rebase
 ```
 
+## Reflog command
+
+The "git reflog" command in Git is used to display a log of reference updates in your repository. It shows a list of previous states of your branches and other references, such as HEAD, that have been updated in the local repository.
+
+The term "reflog" stands for "reference log." It keeps a record of all the changes made to the tips of branches or other references, including commits that are no longer reachable from any branch.
+
+```
+git reflog
+```
+
+The result of **git reflog** command looks like this.
+
+![The result of **git reflog** command](/blogpics/gitflog.png)
+
+
+
 
 
 
