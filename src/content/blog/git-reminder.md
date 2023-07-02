@@ -110,10 +110,16 @@ rm -rf <folder_name>
 git log
 ```
 
-To get all the commits story in one line:
+To get all the commits history in one line:
 
 ```
 git log --oneline
+```
+
+To get decorated onliner commit history:
+
+```
+git log --oneline --graph --decorate --all
 ```
 
 To exit from the **Story of commits** mode press "q". 
@@ -197,7 +203,6 @@ git fetch
 
 git pull --rebase
 ```
-
 
 
 
