@@ -22,7 +22,7 @@
 
 ![Manual](assets/thumbnail.png)
 
-## 🚀 Getting Started
+## 🚀 Getting Started now
 
 Once you've downloaded the template with `npx degit TheOtterlord/manual`, install dependencies and start the dev server:
 
