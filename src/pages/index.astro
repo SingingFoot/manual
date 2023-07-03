@@ -2,14 +2,22 @@
 import { Code } from 'astro/components'
 import Layout from '../layouts/Base.astro';
 
-const CODE = `# Clone the repository
-git clone {git repository address}
-# Navigate to the directory
-cd manual
-# Install dependencies
-npm install
-# Start the dev server
-npm run dev`
+const CODE = `const { experience, skills, backgroundImpression } = {
+  experience: '6+ years in technical writing',
+  skills: ['API documentation', 'Markdown', 'GitHub'],
+  backgroundImpression: 'Impressed by expertise and experience',
+};
+
+console.log(
+  experience.includes('technical writing') &&
+  skills.includes('API documentation') &&
+  skills.includes('Markdown') &&
+  skills.includes('GitHub') &&
+  backgroundImpression.includes('Impressed')
+    ? 'Congratulations! You\'re hired as our new technical writer.'
+    : 'We regret to inform you that we won\'t be proceeding with your application.'
+);
+`
 ---
 
 <Layout title="Technical Writing">
