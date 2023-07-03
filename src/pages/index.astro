@@ -3,7 +3,7 @@ import { Code } from 'astro/components'
 import Layout from '../layouts/Base.astro';
 
 const CODE = `# Clone the repository
-git clone https://github.com/TheOtterlord/manual
+git clone {git repository address}
 # Navigate to the directory
 cd manual
 # Install dependencies
@@ -12,13 +12,13 @@ npm install
 npm run dev`
 ---
 
-<Layout title="Manual">
+<Layout title="Technical Writing">
 	<main>
     <div class="max-w-6xl mx-auto dark:text-white md:py-32 md:flex">
       <div class="p-8 md:w-1/2">
-        <h1 class="text-6xl font-bold my-4">Manual</h1>
+        <h1 class="text-6xl font-bold my-4">Oleh Shynkarenko</h1>
         <p class="text-2xl my-8">
-          Build <b class="text-green-600 dark:text-green-400">robust</b>, <b class="text-green-600 dark:text-green-400">modern</b> documentation sites with the Manual theme.
+          Meet the <b class="text-green-600 dark:text-green-400">experienced</b> and <b class="text-green-600 dark:text-green-400">skilled</b> contract technical writer to build your documentation in the best possible way.
         </p>
         <a href="/docs/get-started/introduction" class="inline-block bg-green-700 hover:bg-green-800 text-white text-lg font-bold py-2 px-4 rounded">
           GET STARTED
@@ -30,15 +30,13 @@ npm run dev`
     </div>
     <div class="bg-green-700 dark:bg-zinc-800">
       <div class="max-w-6xl mx-auto md:py-16 p-8 text-center">
-        <h1 class="text-white text-6xl font-bold mb-16">Build Your Project!</h1>
+        <h1 class="text-white text-6xl font-bold mb-16">Order Your Documentation!</h1>
         <div class="md:flex md:justify-center space-y-8 md:space-y-0 md:gap-x-8 dark:text-white">
           <div>
             <div class="bg-zinc-100 dark:bg-zinc-900 p-8 rounded-2xl shadow-xl">
-              <h2 class="text-2xl font-bold">Card 1</h2>
+              <h2 class="text-2xl font-bold">Telecom <br> projects</h2>
               <p class="text-gray-600 dark:text-gray-400 my-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                tincidunt, nisl eget aliquam tincidunt, nisl elit aliquam
-                tortor, eget aliquam nisl elit non nisl.
+                Preparing project documentation for a telecom project is a critical step in ensuring its success. Effective project documentation serves as a roadmap, providing stakeholders with a clear understanding of project objectives. 
               </p>
               <a href="/docs/get-started/introduction" class="inline-block bg-green-700 hover:bg-green-800 text-white text-lg font-bold py-2 px-4 rounded">
                 LEARN
@@ -47,11 +45,9 @@ npm run dev`
           </div>
           <div>
             <div class="bg-zinc-100 dark:bg-zinc-900 p-8 rounded-2xl shadow-xl">
-              <h2 class="text-2xl font-bold">Card 2</h2>
+              <h2 class="text-2xl font-bold">Migrate from <br> GoogleDocs</h2>
               <p class="text-gray-600 dark:text-gray-400 my-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                tincidunt, nisl eget aliquam tincidunt, nisl elit aliquam
-                tortor, eget aliquam nisl elit non nisl.
+                Migrating project documentation from Google Docs to a static website generator like Astro or Docusaurus can bring numerous benefits, including improved version control.
               </p>
               <a href="/docs/guides/migrate-from-z" class="inline-block bg-green-700 hover:bg-green-800 text-white text-lg font-bold py-2 px-4 rounded">
                 MIGRATE
@@ -60,11 +56,9 @@ npm run dev`
           </div>
           <div>
             <div class="bg-zinc-100 dark:bg-zinc-900 p-8 rounded-2xl shadow-xl">
-              <h2 class="text-2xl font-bold">Card 3</h2>
+              <h2 class="text-2xl font-bold">Use Visual <br> Studio Code</h2>
               <p class="text-gray-600 dark:text-gray-400 my-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                tincidunt, nisl eget aliquam tincidunt, nisl elit aliquam
-                tortor, eget aliquam nisl elit non nisl.
+                Visual Studio Code (VS Code) is a powerful and versatile code editor that can greatly enhance the process of technical writing and preparing technical documentation for software projects. 
               </p>
               <a href="/docs/get-started/installation" class="inline-block bg-green-700 hover:bg-green-800 text-white text-lg font-bold py-2 px-4 rounded">
                 INSTALL
@@ -76,27 +70,27 @@ npm run dev`
     </div>
     <div class="max-w-6xl mx-auto dark:text-white md:py-32 md:flex md:flex-wrap">
       <div class="p-8 md:w-1/2">
-        <h2 class="text-4xl font-bold my-4">Point 1</h2>
+        <h2 class="text-4xl font-bold my-4">Clear and Accurate Communication</h2>
         <p class="text-lg my-8">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate maxime corporis expedita consequuntur ipsa, eaque a suscipit, voluptatem voluptas excepturi aperiam magnam, eos quo est ipsam amet illo laboriosam consequatur.
+          Technical writing plays a crucial role in software development and engineering projects by ensuring clear and accurate communication. Developers, engineers, and stakeholders rely on well-written documentation to understand complex systems, functionalities, and processes. It helps bridge the gap between technical concepts and non-technical audiences, facilitating effective collaboration and minimizing misunderstandings.
         </p>
       </div>
       <div class="p-8 md:w-1/2">
-        <h2 class="text-4xl font-bold my-4">Point 2</h2>
+        <h2 class="text-4xl font-bold my-4">Knowledge Sharing and Transfer</h2>
         <p class="text-lg my-8">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate maxime corporis expedita consequuntur ipsa, eaque a suscipit, voluptatem voluptas excepturi aperiam magnam, eos quo est ipsam amet illo laboriosam consequatur.
+        Technical writing enables knowledge sharing and transfer within software development and engineering teams. Documenting code, design decisions, and project specifications helps preserve valuable information for future reference. It allows team members to understand the rationale behind certain choices, troubleshoot issues, and onboard new members more efficiently. Technical documentation serves as a repository of collective knowledge, promoting continuity and scalability in projects.
         </p>
       </div>
       <div class="p-8 md:w-1/2">
-        <h2 class="text-4xl font-bold my-4">Point 3</h2>
-        <p class="text-lg my-8">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate maxime corporis expedita consequuntur ipsa, eaque a suscipit, voluptatem voluptas excepturi aperiam magnam, eos quo est ipsam amet illo laboriosam consequatur.
+        <h2 class="text-4xl font-bold my-4">User Support and Empowerment</h2>
+        <p class="text-lg my-8">   
+        Technical writing is essential for providing user support and empowering end-users. Well-documented software and engineering projects include user manuals, tutorials, and guides that enable users to understand and utilize the system effectively. Clear instructions, troubleshooting tips, and examples enhance the user experience, reduce support requests, and empower users to take full advantage of the product's capabilities.
         </p>
       </div>
       <div class="p-8 md:w-1/2">
-        <h2 class="text-4xl font-bold my-4">Point 4</h2>
-        <p class="text-lg my-8">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate maxime corporis expedita consequuntur ipsa, eaque a suscipit, voluptatem voluptas excepturi aperiam magnam, eos quo est ipsam amet illo laboriosam consequatur.
+        <h2 class="text-4xl font-bold my-4">Compliance and Regulatory Requirements</h2>
+        <p class="text-lg my-8">     
+        In software development and engineering projects, adherence to compliance and regulatory requirements is crucial. Technical writing ensures that projects meet industry standards, legal obligations, and quality assurance protocols. Documentation is often required for audits, certifications, and compliance assessments. Accurate and comprehensive documentation helps organizations demonstrate compliance, mitigate risks, and maintain a strong reputation in the industry.
         </p>
       </div>
       <a href="/docs/get-started/introduction" class="w-fit px-8 my-4 text-center mx-auto block bg-green-700 hover:bg-green-800 text-white text-lg font-bold py-2 rounded">
