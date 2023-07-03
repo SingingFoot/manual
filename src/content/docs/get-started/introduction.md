@@ -1,21 +1,143 @@
 ---
-title: Project documentation for a telecommunication project
+title: About me
 ---
 
-## Introduction
+## Briefly and generally
 
-Preparing project documentation for a telecommunication project is a critical step in ensuring its success. Effective project documentation serves as a roadmap, providing stakeholders with a clear understanding of project objectives, timelines, deliverables, and resource requirements. This comprehensive documentation enables efficient collaboration, minimizes risks, and facilitates effective decision-making throughout the project lifecycle. In this article, we will discuss key steps and considerations in preparing project documentation for a telecommunication project, helping you streamline the process and enhance project outcomes.
+I began my career in technical writing as the author of five fiction books, a journalist, and an automation and instrumentation engineer.
 
-## Defining Project Scope and Objectives
+I have a university postgraduate diploma in translation & interpreting. I've been using English for practical purposes for the past 15 years, and I'm proud to say that I have a C1 (advanced)-C2 (proficient) level of proficiency according to the CEFR guidelines, meaning I have full working proficiency.
 
-The first step in preparing project documentation for a telecommunication project is to define the project scope and objectives. This involves identifying the purpose of the project, desired outcomes, and the specific telecommunications services or systems to be developed or implemented. It is essential to engage key stakeholders, including project sponsors, clients, and end-users, to gather their input and align expectations. Clearly defining the scope and objectives will provide a foundation for the rest of the documentation and guide decision-making throughout the project.
+Let's talk about my experience. I have more than 6 years of experience in technical writing, working with software, hardware, gadget engineering, and IoT companies. In addition to that, I bring over 20 years of expertise in journalism and creative writing. I've also spent a decade honing my skills in video and audio production. To top it off, I have 4 years of experience in automation unit management.
 
-## Creating a Project Plan and Schedule
+Now, let's dive into my skills. I'm well-versed in API documentation, utilizing tools like Swagger, Stoplight, and Rapid. I also have experience with API collections and manual testing using Postman. When it comes to static website generators, I'm proficient in Astro, MkDocs, Hugo, Docusaurus (Markdown), Sphinx (reStructuredText), Gatsby, Hexo, and Jekyll.
 
-Once the project scope and objectives are established, the next step is to create a project plan and schedule. The project plan outlines the tasks, activities, and milestones required to achieve the project objectives. It should include a breakdown of work packages, a list of deliverables, and a detailed timeline. Additionally, resource allocation, budget estimates, and risk management strategies should be considered. A well-structured project plan provides a roadmap for project execution, helps manage resources efficiently, and allows for effective tracking and monitoring of progress.
+My expertise extends to CI/CD and Docs-as-Code workflows with GitHub, and I have a strong command of Markdown. I'm familiar with various style guides such as Google, Microsoft, Vocab, Write Good, and I use linter Vale and Visual Studio Code to ensure high-quality writing. In terms of authoring, I'm skilled in RoboHelp and Framemaker, and I'm quite comfortable working with Visual Studio Code as my IDE.
 
-## Documenting Project Requirements and Design
+When it comes to design, I'm proficient in tools like Figma, Miro, Draw.io, Google Slides, Adobe Photoshop, Audition, After Effects, Premiere, and Illustrator. I also have experience using UML with PlantUML and Terraform Docs. Additionally, I have a solid understanding of HTML and CSS, and possess basic knowledge of Java, JavaScript, and Python.
 
-Documenting project requirements and design is a crucial aspect of project documentation in the telecommunication field. This involves capturing functional and non-functional requirements, such as system capabilities, performance criteria, security measures, and scalability needs. Detailed design documentation should also be created, including network diagrams, system architecture, and technical specifications. These documents serve as a reference for the project team, ensuring a clear understanding of the desired solution and guiding the development or implementation process. Regular updates to these documents throughout the project lifecycle help track changes and ensure alignment with evolving project needs.
+In my professional toolkit, I utilize Atlassian Confluence and Jira for collaboration and project management. I'm well-versed in using GitHub for version control, and I'm comfortable working with platforms like Trello and Slack for effective team communication. Microsoft Office tools like Word, Excel, PowerPoint, and Teams are second nature to me. I also have experience in localization using Smartcat, POeditor, and Poedit.
 
-In summary, preparing project documentation for a telecommunication project requires careful planning, clear communication with stakeholders, and attention to detail. Defining the project scope and objectives, creating a project plan and schedule, and documenting requirements and design are vital steps in this process. By following these guidelines, project teams can enhance collaboration, mitigate risks, and achieve successful outcomes in telecommunication projects.
+Now, let me highlight some of my career achievements. I've successfully implemented over 100 engineering methodologies, and I have extensive experience in localizing user guides and documents for developers and engineers. On the creative side, I've published 6 fiction books and 3 books on the judicial practice of Ukraine. In the realm of media production, I've created 3 documentaries and produced over 100 videos on demand. I've also hosted more than 200 radio podcasts. Lastly, I've managed 2 Facebook ad campaigns worth $2,000, which collectively reached an audience of over 1,000,000 people.
+
+That's a snapshot of my background, skills, and accomplishments. 
+
+## Portfolio
+
+[SignNow API documentation](https://docs.signnow.com/docs/signnow/welcome)
+
+[Canyon Gaming Gadgets documentation](https://gaming.canyon.eu/drivers-manuals/)
+
+[Canyon user guides and manuals](https://canyon.eu/drivers-and-manuals)
+
+## Pet projects 
+
+[My GitHub](github.com/SingingFoot)
+
+## Documentation and blogs:
+
+[Manual on Astro](https://manual-ua.netlify.app/)
+
+[API gate on Astro](https://api-gate-ua.netlify.app/)
+
+[My blog on Medium](https://olehshynkarenko.medium.com/)
+
+Email: singingfoot@gmail.com
+
+Twitter: OlehShynkarenko
+
+Skype: oleg_shynkarenko
+
+## Experience
+
+**GlobalLogic**
+
+*Senior Technical Writer*
+
+Nov 2021 - Present
+
+*Kyiv, Ukraine*
+
+Clients:
+
+1) An American multinational conglomerate operating in the fields of industry, worker safety, healthcare and consumer goods. Creating instructions and manuals for software developers and users in MkDocs + GitHub + VSC as Markdown files.
+2) A largest American wireless network operator, with 142.8 million subscribers at the end of Q4 2021. 
+3) A digital health start-up (Boston, MA. European office in Stockholm, Sweden), focused on respiratory care, offers a complex solution for assessing the health of patients with respiratory diseases. Main responsibilies:
+- development and editing of instructions for users, manuals;
+- preparation of change requests, including a detailed description of the change, possible risks, requirements, user stories;
+- development and adjustment of documents on plans for manual testing of new product features;
+- manual testing, documenting test results and bug reports;
+- preparing tickets to resolve bugs;
+- retesting after fixing bugs and documenting final test results.
+
+**Skills:** *GitHub · Git · Analytical Skills · Instruction for Users · Manuals · Quality Assurance Testing · Technical Writing · Software Documentation · Document Management · Test Planning · Manual Testing · Test Equipment · ISTQB · RoboHelp · Markdown · JavaScript · Cascading Style Sheets (CSS) · HTMLSkills: GitHub · Git · Analytical Skills · Instruction for Users · Manuals · Quality Assurance Testing · Technical Writing · Software Documentation · Document Management · Test Planning · Manual Testing · Test Equipment · ISTQB · RoboHelp · Markdown · JavaScript · Cascading Style Sheets (CSS) · HTML*
+
+**BJet**
+
+*Senior Technical Writer*
+
+Aug 2021 - Nov 2021
+
+*Lviv, Ukraine*
+
+*ERP-system documentation (Odoo), dashboards, data fields, legal documentation (Acceptable Use Policy, Responsible Disclosure of Security Vulnerabilities etc.), Google services integration, online user guides with RoboHelp, Confluence software guides, video user guides, promo video, POEditor and Poedit Localizations.ERP-system documentation (Odoo), dashboards, data fields, legal documentation (Acceptable Use Policy, Responsible Disclosure of Security Vulnerabilities etc.), Google services integration, online user guides with RoboHelp, Confluence software guides, video user guides, promo video, POEditor and Poedit Localizations.*
+
+**Skills:** *GitHub · Git · Analytical Skills*
+
+
+**ASBIS Ukraine**
+
+*Technical Writer*
+
+Sep 2020 - Aug 2021
+
+*Kyiv, Ukraine*
+
+Writing User Guides, Quickstart Guides, Manuals, Online Helps, Video Tutorials, Localizations.
+
+**Skills:** *GitHub · Git · Analytical Skills*
+
+
+**Egis in Ukraine, Caucasus & Central Asia**
+
+*Technical Writer*
+
+Dec 2018 - Sep 2020
+
+*Kiev Region, Ukraine*
+
+*Engineering Methodologies, ID cards, executive summaries, lists of technical issues, mitigation strategies etc. Project manager. Communication expert, Web Content Editor, SMM.* 
+
+**Skills:** *Git · Analytical Skills*
+
+**Ukrainian Helsinki Human Rights Union**
+
+Journalist
+
+*Jul 2015 - Dec 2018*
+
+*Media coverage of the court cases, project management, writing reports, articles, blogs, twitter translations, video and photo reports, radio podcasts, web content management, SMM.*
+
+## Education
+
+**Classic Private University**
+
+Bachelor's degree, Teaching English as a Second or Foreign Language/ESL Language Instructor
+
+**2006 - 2008**
+
+**Intajour (International Academy of Journalism)**
+
+Sertificate of excellence, Digital Journalism
+
+**2011 - 2012**
+
+Studying digital journalism and media activism.
+
+**Zaporizhzhya State Engineering Academy**
+
+Master's degree, Supervisory instruments and automatics. 
+
+**1994 - 1999**
+
+Supervisory instruments, automatics and control measurement systems.
