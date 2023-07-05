@@ -6,6 +6,7 @@ title: Short introduction to website generators
 
 Website generators, such as Astro, MkDocs, Hugo, Jekyll, and Docusaurus, are powerful tools that simplify the process of building and managing websites. They allow developers and content creators to generate static websites quickly and efficiently. In recent years, there has been a rise in the popularity of headless CMS (Content Management System), which is often used in conjunction with website generators. A headless CMS is "headless" because it decouples the content management backend from the front-end presentation layer. This separation offers flexibility and convenience, as it allows developers to focus on building the front-end using website generators while leveraging the CMS for content management.
 
+
 ### Astro
 
 In the code example for Astro, we have a simple JSX component written in JavaScript. Astro, a modern website generator, allows developers to build static websites using familiar technologies like React. This code snippet demonstrates how to create a basic component that renders a heading and a paragraph.
@@ -81,4 +82,5 @@ The code examples for Hugo and Jekyll showcase the simplicity and elegance of th
 </body>
 </html>
 ```
+
 
