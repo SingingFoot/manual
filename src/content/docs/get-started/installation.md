@@ -4,6 +4,54 @@ title: Visual Studio Code for Technical Writing
 
 **Visual Studio Code** (VS Code) is a powerful and versatile code editor that can greatly enhance the process of technical writing and preparing technical documentation for software projects. With its extensive features, extensions, and customization options, VS Code provides a robust environment for writing, editing, formatting, and collaborating on documentation. In this guide, we will explore the steps to install and set up VS Code for technical writing, and we'll discuss useful extensions and features that can boost productivity and streamline the documentation process.
 
+<div style="border: 2px solid #2c5691; background-color: #c7d9f2; padding: 10px; border-radius: 4px; margin-bottom: 20px;">
+  <strong style="color: #064091; font-family: Arial, Helvetica, sans-serif">Note:</strong> <br /> <div style="color: black; font-family: Arial, Helvetica, sans-serif; line-height: 1.2">While marketing primarily to professional programmers, VS Code is an excellent editor for students and other learner just getting started with HTML and CSS.</div>
+</div>
+
+<div style="position: relative; width: 610px; height: 380px; border: 1px solid #000; background-color: #1e1e1e; color: #fff; padding: 20px; border-radius: 4px; font-family: 'Courier New', monospace; overflow: hidden;">
+  <pre id="vscodeAnimation" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; padding: 0; margin: 0; line-height: 1.5; white-space: pre-wrap;"></pre>
+
+  <style>
+    @keyframes workAnimation {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-100%); }
+    }
+  </style>
+
+  <script>
+    const text = `Visual Studio Code (VS Code) is a powerful and versatile code editor that can greatly enhance the process of technical writing and preparing technical documentation for software projects. With its extensive features, extensions, and customization options, VS Code provides a robust environment for writing, editing, formatting, and collaborating on documentation. In this guide, we will explore the steps to install and set up VS Code for technical writing, and we'll discuss useful extensions and features that can boost productivity and streamline the documentation process.
+
+<div style='border: 2px solid #2c5691; background-color: #c7d9f2; padding: 10px; border-radius: 4px; margin-bottom: 20px;'><strong style='color: #064091; font-family: Arial, Helvetica, sans-serif'>Note:</strong><br /><div style='color: black; font-family: Arial, Helvetica, sans-serif; line-height: 1.2'>While marketing primarily to professional programmers, VS Code is an excellent editor for students and other learners just getting started with HTML and CSS.</div></div>`
+
+
+    const vscodeAnimation = document.getElementById("vscodeAnimation");
+    let i = 0;
+    let lineCount = 0;
+
+    function typeWriter() {
+      if (i < text.length) {
+        const char = text.charAt(i);
+        vscodeAnimation.innerHTML += char;
+
+        if (char === '\n') {
+          lineCount++;
+        }
+
+        if (lineCount > 10) {
+          vscodeAnimation.innerHTML = vscodeAnimation.innerHTML.slice(vscodeAnimation.innerHTML.indexOf('\n') + 1);
+          lineCount--;
+        }
+
+        i++;
+        setTimeout(typeWriter, 50);
+      }
+    }
+
+    typeWriter();
+  </script>
+</div>
+
+
 ## Install Visual Studio Code
 Installing VS Code is a straightforward process. Follow these steps to get started:
 
@@ -11,6 +59,7 @@ Installing VS Code is a straightforward process. Follow these steps to get start
 - Download the installer for your operating system (Windows, macOS, or Linux).
 - Run the installer and follow the on-screen instructions.
 - Once the installation is complete, launch VS Code.
+
 
 ## Configure Visual Studio Code for Technical Writing
 After installing VS Code, you can further optimize it for technical writing by customizing settings and installing relevant extensions. Here are some recommendations:
