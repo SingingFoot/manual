@@ -2,6 +2,68 @@
 title: Visual Studio Code for Technical Writing
 ---
 
+<div style="width: 610px; height: 200px; position: relative; overflow: hidden;">
+  <div class="frame" style="width: 100%; height: 100%; position: absolute;">
+    <div class="train" style="width: 50px; height: 15px; position: absolute; filter: blur(3.5px); mix-blend-mode: exclusion; left: -50px; animation: trainMovement1 10s linear infinite; background-color: blue; top: calc(50% - 50px);"></div>
+    <div class="train" style="width: 50px; height: 15px; position: absolute; filter: blur(1.9px); mix-blend-mode: exclusion; left: -50px; animation: trainMovement2 10s linear infinite; background-color: grey; top: calc(50% - 25px); animation-delay: 0.9s;"></div>
+    <div class="train" style="width: 50px; height: 15px; position: absolute; filter: blur(1.2px); mix-blend-mode: exclusion; left: -50px; animation: trainMovement3 10s linear infinite; background-color: lightblue; top: calc(50% - 7.5px); animation-delay: 1.4s;"></div>
+    <div class="train" style="width: 50px; height: 15px; position: absolute; filter: blur(4.9px); mix-blend-mode: exclusion; left: -50px; animation: trainMovement4 10s linear infinite; background-color: lightpink; top: calc(50% + 10px); animation-delay: 0.6s;"></div>
+    <div class="train" style="width: 50px; height: 15px; position: absolute; filter: blur(2.5px); mix-blend-mode: exclusion; left: -50px; animation: trainMovement5 10s linear infinite; background-color: lightgreen; top: calc(50% + 27.5px); animation-delay: 0.8s;"></div>
+  </div>
+
+  <style>
+    @keyframes trainMovement1 {
+      0% {
+        transform: translateX(-50px);
+      }
+      100% {
+        transform: translateX(610px);
+      }
+    }
+    
+    @keyframes trainMovement2 {
+      0% {
+        transform: translateX(-50px);
+      }
+      100% {
+        transform: translateX(610px);
+      }
+    }
+    
+    @keyframes trainMovement3 {
+      0% {
+        transform: translateX(-50px);
+      }
+      100% {
+        transform: translateX(610px);
+      }
+    }
+    
+    @keyframes trainMovement4 {
+      0% {
+        transform: translateX(-50px);
+      }
+      100% {
+        transform: translateX(610px);
+      }
+    }
+    
+    @keyframes trainMovement5 {
+      0% {
+        transform: translateX(-50px);
+      }
+      100% {
+        transform: translateX(610px);
+      }
+    }
+  </style>
+</div>
+
+
+
+
+
+
 <div style="position: relative; width: 610px; height: 380px; border: 1px solid #000; background-color: #1e1e1e; color: #fff; padding: 20px; border-radius: 4px; font-family: 'Courier New', monospace; overflow: hidden;">
   <pre id="vscodeAnimation" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; padding: 0; margin: 0; line-height: 1.5; white-space: pre-wrap;"></pre>
 
