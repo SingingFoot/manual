@@ -4,11 +4,11 @@ title: Visual Studio Code for Technical Writing
 
 <div style="width: 610px; height: 200px; position: relative; overflow: hidden;">
   <div class="frame" style="width: 100%; height: 100%; position: absolute;">
-    <div class="train" style="width: 50px; height: 15px; position: absolute; filter: blur(3.5px); mix-blend-mode: exclusion; left: -50px; animation: trainMovement1 10s linear infinite; background-color: blue; top: calc(50% - 50px);"></div>
-    <div class="train" style="width: 50px; height: 15px; position: absolute; filter: blur(1.9px); mix-blend-mode: exclusion; left: -50px; animation: trainMovement2 10s linear infinite; background-color: grey; top: calc(50% - 25px); animation-delay: 0.9s;"></div>
-    <div class="train" style="width: 50px; height: 15px; position: absolute; filter: blur(1.2px); mix-blend-mode: exclusion; left: -50px; animation: trainMovement3 10s linear infinite; background-color: lightblue; top: calc(50% - 7.5px); animation-delay: 1.4s;"></div>
-    <div class="train" style="width: 50px; height: 15px; position: absolute; filter: blur(4.9px); mix-blend-mode: exclusion; left: -50px; animation: trainMovement4 10s linear infinite; background-color: lightpink; top: calc(50% + 10px); animation-delay: 0.6s;"></div>
-    <div class="train" style="width: 50px; height: 15px; position: absolute; filter: blur(2.5px); mix-blend-mode: exclusion; left: -50px; animation: trainMovement5 10s linear infinite; background-color: lightgreen; top: calc(50% + 27.5px); animation-delay: 0.8s;"></div>
+    <div class="train" style="width: 50px; height: 15px; position: absolute; filter: blur(3.5px); mix-blend-mode: exclusion; left: -50px; animation: trainMovement1 15s ease infinite; background-color: blue; top: calc(50% - 50px);"></div>
+    <div class="train" style="width: 50px; height: 15px; position: absolute; filter: blur(1.9px); mix-blend-mode: exclusion; left: -50px; animation: trainMovement2 11s linear infinite; background-color: grey; top: calc(50% - 25px); animation-delay: 0.9s;"></div>
+    <div class="train" style="width: 50px; height: 15px; position: absolute; filter: blur(1.8px); mix-blend-mode: exclusion; left: -50px; animation: trainMovement3 9s linear infinite; background-color: lightblue; top: calc(50% - 7.5px); animation-delay: 1.4s;"></div>
+    <div class="train" style="width: 50px; height: 15px; position: absolute; filter: blur(4.9px); mix-blend-mode: exclusion; left: -50px; animation: trainMovement4 8s linear infinite; background-color: lightpink; top: calc(50% + 10px); animation-delay: 1.6s;"></div>
+    <div class="train" style="width: 50px; height: 15px; position: absolute; filter: blur(2.5px); mix-blend-mode: exclusion; left: -50px; animation: trainMovement5 16s cubic-bezier(0.0, -0.6, 0.2, 1.0) infinite; background-color: lightgreen; top: calc(50% + 27.5px); animation-delay: 0.1s;"></div>
   </div>
 
   <style>
@@ -17,7 +17,7 @@ title: Visual Studio Code for Technical Writing
         transform: translateX(-50px);
       }
       100% {
-        transform: translateX(610px);
+        transform: translateX(680px);
       }
     }
     
@@ -26,7 +26,7 @@ title: Visual Studio Code for Technical Writing
         transform: translateX(-50px);
       }
       100% {
-        transform: translateX(610px);
+        transform: translateX(680px);
       }
     }
     
@@ -35,7 +35,7 @@ title: Visual Studio Code for Technical Writing
         transform: translateX(-50px);
       }
       100% {
-        transform: translateX(610px);
+        transform: translateX(680px);
       }
     }
     
@@ -44,7 +44,7 @@ title: Visual Studio Code for Technical Writing
         transform: translateX(-50px);
       }
       100% {
-        transform: translateX(610px);
+        transform: translateX(680px);
       }
     }
     
@@ -53,7 +53,7 @@ title: Visual Studio Code for Technical Writing
         transform: translateX(-50px);
       }
       100% {
-        transform: translateX(610px);
+        transform: translateX(680px);
       }
     }
   </style>
