@@ -2,7 +2,7 @@
 
 // Metadata, SEO, and Social
 export const SITE_TITLE = "Manual Theme"
-export const SITE_DESCRIPTION = "A documentation template for Astro"
+export const SITE_DESCRIPTION = "Oleh Shynkarenko Contract Technical Writer"
 export const SITE_URL = "https://manual.otterlord.dev"
 export const SITE_DEFAULT_OG_IMAGE = "/assets/og-image.png"
 
