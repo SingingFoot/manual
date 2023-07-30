@@ -20,5 +20,7 @@ export const SIDEBAR_ITEMS = {
   "Guides": [
     "/docs/guides/migrate-from-z",
     "/docs/guides/ai-animation",
+    "/docs/guides/rest_and_spread",
+    "/docs/guides/destructuring"
   ]
 }

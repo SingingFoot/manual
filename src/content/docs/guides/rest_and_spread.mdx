@@ -1,0 +1,62 @@
+---
+title: Spread and rest operators in JavaScript
+---
+
+## Spread in JavaScript
+
+In JavaScript, the spread operator (denoted by three consecutive dots: ...) is used to expand elements from an iterable (like an array or a string) into individual elements. It allows us to split an iterable into its individual components and use them in various contexts. For example, when used with arrays, it can be used to concatenate arrays, create copies, or pass elements as function arguments.
+
+Example of using spread to concatenate arrays:
+
+```js
+
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+const combinedArray = [...arr1, ...arr2];
+console.log(combinedArray); // Output: [1, 2, 3, 4, 5, 6]
+
+```
+
+## Rest in JavaScript
+
+The rest parameter (also denoted by three consecutive dots: ...) in JavaScript is used in function parameters to collect all remaining arguments into a single array. It allows functions to accept a variable number of arguments without explicitly defining them as separate parameters. This is useful when the number of arguments passed to a function is not known beforehand.
+
+Example of using rest parameter in a function:
+
+```js
+
+function sum(...numbers) {
+  let total = 0;
+  for (let num of numbers) {
+    total += num;
+  }
+  return total;
+}
+
+console.log(sum(1, 2, 3, 4)); // Output: 10
+console.log(sum(5, 10, 15)); // Output: 30
+
+```
+
+## Difference between Spread and Rest
+
+While both spread and rest use the same syntax of three dots (...), they are used in different contexts. The spread operator is used to split an iterable into individual elements, while the rest parameter is used in function parameters to collect multiple arguments into a single array.
+
+Example illustrating the difference:
+
+```js
+
+// Using Spread
+const numbers = [1, 2, 3, 4, 5];
+const maxNumber = Math.max(...numbers);
+console.log(maxNumber); // Output: 5
+
+// Using Rest
+function sum(...nums) {
+  return nums.reduce((acc, curr) => acc + curr, 0);
+}
+
+console.log(sum(1, 2, 3, 4, 5)); // Output: 15
+
+```
+In this example, we use the spread operator to pass individual elements of the numbers array as separate arguments to the Math.max() function. On the other hand, we use the rest parameter to collect multiple arguments into an array within the sum function and then perform the summation operation.
