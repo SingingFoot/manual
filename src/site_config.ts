@@ -22,6 +22,7 @@ export const SIDEBAR_ITEMS = {
     "/docs/guides/ai-animation",
     "/docs/guides/rest_and_spread",
     "/docs/guides/destructuring",
-    "/docs/guides/directory-indicator"
+    "/docs/guides/directory-indicator",
+    "/docs/guides/props",
   ]
 }
