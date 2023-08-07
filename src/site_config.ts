@@ -24,5 +24,6 @@ export const SIDEBAR_ITEMS = {
     "/docs/guides/destructuring",
     "/docs/guides/directory-indicator",
     "/docs/guides/props",
+    "/docs/guides/terraform",
   ]
 }
