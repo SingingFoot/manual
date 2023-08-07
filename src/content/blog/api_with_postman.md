@@ -19,6 +19,22 @@ Once you've generated documentation for your collection or API, users can [view 
     * [Editing API documentation](#editing-api-documentation)
     * [Deleting API documentation](#deleting-api-documentation)
 * [Associating environments with documentation](#associating-environments-with-documentation)
+* [Adding descriptions to your documentation](#adding-descriptions-to-your-documentation)
+    * [Writing descriptions in the Postman editor](#writing-descriptions-in-the-postman-editor)
+    * [Writing descriptions in Markdown](#writing-descriptions-in-markdown)
+    * [Selecting a default documentation editor](#selecting-a-default-documentation-editor)
+    * [Adding descriptions to parameters and headers](#adding-descriptions-to-parameters-and-headers)
+* [Including authorization details](#including-authorization-details)
+* [Including examples](#including-examples)
+* [Adding links](#adding-links)
+* [Adding images](#adding-images)
+* [Embedding videos](#embedding-videos)
+* [Finding help and inspiration](#finding-help-and-inspiration)
+* [Making your documentation public](#making-your-documentation-public)
+* [Sharing your public docs](#sharing-your-public-docs)
+* [Changing publication settings](#changing-publication-settings)
+* [Unpublishing your docs](#unpublishing-your-docs)
+
 
 ## Documenting a collection
 
@@ -138,19 +154,7 @@ To help your teammates ([or the world](/docs/publishing-your-api/publishing-your
 
 > You can also add a description when [creating a new request](/docs/sending-requests/requests/#creating-requests).
 
-## Contents
 
-* [Adding descriptions to your documentation](#adding-descriptions-to-your-documentation)
-    * [Writing descriptions in the Postman editor](#writing-descriptions-in-the-postman-editor)
-    * [Writing descriptions in Markdown](#writing-descriptions-in-markdown)
-    * [Selecting a default documentation editor](#selecting-a-default-documentation-editor)
-    * [Adding descriptions to parameters and headers](#adding-descriptions-to-parameters-and-headers)
-* [Including authorization details](#including-authorization-details)
-* [Including examples](#including-examples)
-* [Adding links](#adding-links)
-* [Adding images](#adding-images)
-* [Embedding videos](#embedding-videos)
-* [Finding help and inspiration](#finding-help-and-inspiration)
 
 ## Adding descriptions to your documentation
 
@@ -355,12 +359,6 @@ Public documentation automatically includes details for each request or endpoint
 
 > Your public documentation includes the **Run in Postman** button so users can interact with your collection or API directly in Postman. For an example, check out the [Postman API documentation](https://documenter.getpostman.com/view/12959542/UV5XjJV8) which was published from a Postman Collection.
 
-## Contents
-
-* [Making your documentation public](#making-your-documentation-public)
-* [Sharing your public docs](#sharing-your-public-docs)
-* [Changing publication settings](#changing-publication-settings)
-* [Unpublishing your docs](#unpublishing-your-docs)
 
 ## Making your documentation public
 
