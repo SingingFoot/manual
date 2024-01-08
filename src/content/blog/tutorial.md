@@ -28,6 +28,12 @@ npm install
 npm run dev
 ```
 
+### Stop the dev server
+
+```js
+Control + C
+```
+
 ### Delete original git folder and initialize your own repository
 
 Press "Command" + "Shift" + "." to view hidden folders. Delete original .git folder.
