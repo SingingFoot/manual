@@ -6,6 +6,8 @@ published: 2023-06-18
 
 ### Clone the repository
 
+This command will clone your repository.
+
 ```js
 git clone https://github.com/TheOtterlord/manual
 ```
