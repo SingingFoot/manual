@@ -30,6 +30,6 @@ export const SIDEBAR_ITEMS = {
   "Code Documentation": [
     "/docs/guides/code-doc-tail",
     "/docs/guides/index-ex",
-    "/docs/guides/compile.mdx"
+    "/docs/guides/compile"
   ]
 }
