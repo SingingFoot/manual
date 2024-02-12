@@ -1,0 +1,80 @@
+---
+title: Compile and CompileSync functions
+---
+
+## Code
+
+```js
+/**
+ * @typedef {import('vfile').VFile} VFile
+ * @typedef {import('vfile').VFileCompatible} VFileCompatible
+ * @typedef {import('./core.js').PluginOptions} PluginOptions
+ * @typedef {import('./core.js').BaseProcessorOptions} BaseProcessorOptions
+ */
+
+/**
+ * @typedef {Omit<BaseProcessorOptions, 'format'>} CoreProcessorOptions
+ *   Core configuration.
+ *
+ * @typedef ExtraOptions
+ *   Extra configuration.
+ * @property {'detect' | 'mdx' | 'md' | null | undefined} [format='detect']
+ *   Format of `file`.
+ *
+ * @typedef {CoreProcessorOptions & PluginOptions & ExtraOptions} CompileOptions
+ *   Configuration.
+ */
+
+import {createProcessor} from './core.js'
+import {resolveFileAndOptions} from './util/resolve-file-and-options.js'
+
+/**
+ * Compile MDX to JS.
+ *
+ * @param {VFileCompatible} vfileCompatible
+ *   MDX document to parse (`string`, `Buffer`, `vfile`, anything that can be
+ *   given to `vfile`).
+ * @param {CompileOptions | null | undefined} [compileOptions]
+ *   Compile configuration.
+ * @return {Promise<VFile>}
+ *   File.
+ */
+export function compile(vfileCompatible, compileOptions) {
+  const {file, options} = resolveFileAndOptions(vfileCompatible, compileOptions)
+  return createProcessor(options).process(file)
+}
+
+/**
+ * Synchronously compile MDX to JS.
+ *
+ * @param {VFileCompatible} vfileCompatible
+ *   MDX document to parse (`string`, `Buffer`, `vfile`, anything that can be
+ *   given to `vfile`).
+ * @param {CompileOptions | null | undefined} [compileOptions]
+ *   Compile configuration.
+ * @return {VFile}
+ *   File.
+ */
+export function compileSync(vfileCompatible, compileOptions) {
+  const {file, options} = resolveFileAndOptions(vfileCompatible, compileOptions)
+  return createProcessor(options).processSync(file)
+}
+```
+
+## Code Documentation
+
+| Configurations           | Code                                                                                    | Documentation                                                                                                                                                                                                                                                              |
+|--------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CoreProcessorOptions     | ```javascript import {createProcessor} from './core.js' import {resolveFileAndOptions} from './util/resolve-file-and-options.js'```          | The code imports two functions, `createProcessor` from `'./core.js'` and `resolveFileAndOptions` from `'./util/resolve-file-and-options.js'`. These functions will be used to create the processor and resolve file and options, respectively.                  |
+| ExtraOptions             | ```javascript export function compile(vfileCompatible, compileOptions) { const {file, options} = resolveFileAndOptions(vfileCompatible, compileOptions) return createProcessor(options).process(file) }```    | This function `compile` asynchronously compiles MDX (Markdown + JSX) to JavaScript. It takes two arguments: `vfileCompatible` (MDX document to parse, such as string, Buffer, vfile, etc.) and `compileOptions` (optional configuration). The function resolves file and options using `resolveFileAndOptions`, creates a processor using `createProcessor`, and processes the file asynchronously. The resulting file is returned as a Promise. |
+| CompileOptions           | ```javascript export function compileSync(vfileCompatible, compileOptions) { const {file, options} = resolveFileAndOptions(vfileCompatible, compileOptions) return createProcessor(options).processSync(file) }``` | This function `compileSync` synchronously compiles MDX to JavaScript. It takes two arguments: `vfileCompatible` (MDX document to parse, such as string, Buffer, vfile, etc.) and `compileOptions` (optional configuration). The function resolves file and options using `resolveFileAndOptions`, creates a processor using `createProcessor`, and processes the file synchronously. The resulting file is returned.            |
+
+## Explanation
+
+The provided code consists of two main functions: compile and compileSync, both of which compile MDX (Markdown + JSX) to JavaScript. The code imports necessary functions for processing MDX files and options. Each function takes two parameters: vfileCompatible and compileOptions. The vfileCompatible parameter represents the MDX document to parse, and compileOptions is an optional configuration object.
+
+compile: This function asynchronously compiles MDX to JavaScript. It first resolves the file and options using resolveFileAndOptions, then creates a processor with the resolved options using createProcessor, and finally processes the file asynchronously with process. The resulting file is returned as a Promise.
+
+compileSync: This function synchronously compiles MDX to JavaScript. It follows a similar process as compile, but it uses processSync instead of process for synchronous processing. The resulting file is returned directly without being wrapped in a Promise.
+
+Both functions are useful for compiling MDX documents, with compile being suitable for asynchronous operations and compileSync for synchronous ones.
