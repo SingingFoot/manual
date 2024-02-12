@@ -71,10 +71,10 @@ export function compileSync(vfileCompatible, compileOptions) {
 
 ## Explanation
 
-The provided code consists of two main functions: compile and compileSync, both of which compile MDX (Markdown + JSX) to JavaScript. The code imports necessary functions for processing MDX files and options. Each function takes two parameters: vfileCompatible and compileOptions. The vfileCompatible parameter represents the MDX document to parse, and compileOptions is an optional configuration object.
+The provided code consists of two main functions: `compile` and `compileSync`, both of which compile MDX (Markdown + JSX) to JavaScript. The code imports necessary functions for processing MDX files and options. Each function takes two parameters: `vfileCompatible` and `compileOptions`. The `vfileCompatible` parameter represents the MDX document to parse, and `compileOptions` is an optional configuration object.
 
-compile: This function asynchronously compiles MDX to JavaScript. It first resolves the file and options using resolveFileAndOptions, then creates a processor with the resolved options using createProcessor, and finally processes the file asynchronously with process. The resulting file is returned as a Promise.
+`compile`: This function asynchronously compiles MDX to JavaScript. It first resolves the file and options using `resolveFileAndOptions`, then creates a processor with the resolved options using `createProcessor`, and finally processes the file asynchronously with process. The resulting file is returned as a Promise.
 
-compileSync: This function synchronously compiles MDX to JavaScript. It follows a similar process as compile, but it uses processSync instead of process for synchronous processing. The resulting file is returned directly without being wrapped in a Promise.
+`compileSync`: This function synchronously compiles MDX to JavaScript. It follows a similar process as compile, but it uses `processSync` instead of process for synchronous processing. The resulting file is returned directly without being wrapped in a Promise.
 
 Both functions are useful for compiling MDX documents, with compile being suitable for asynchronous operations and compileSync for synchronous ones.
